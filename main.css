@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'droid_sansregular';
+    src: url('font/DroidSans-webfont.eot');
+    src: url('font/DroidSans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/DroidSans-webfont.woff') format('woff'),
+         url('font/DroidSans-webfont.ttf') format('truetype'),
+         url('font/DroidSans-webfont.svg#droid_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'droid_sansbold';
+    src: url('font/DroidSans-Bold-webfont.eot');
+    src: url('font/DroidSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/DroidSans-Bold-webfont.woff') format('woff'),
+         url('font/DroidSans-Bold-webfont.ttf') format('truetype'),
+         url('font/DroidSans-Bold-webfont.svg#droid_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html
+{
+	
+
+}
+header
+{
+	border-bottom: #e6e6e6 solid 1px;
+	background-image:url(./maquette_2/misc/grille.png);
+}
+
+h2
+{
+	font-family: Oswald;
+	color: orange;
+}
+p
+{
+	font-family: droid_sansregular;
+	color:#737373;
+}
+h4
+{
+		font-family: Oswald;
+		color:grey;
+}
+
+h3
+{
+	font-family: Oswald;
+	color: grey;
+	
+}
+
+
+.Navigation
+{
+	
+	display: flex;
+	justify-content: center;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 0.5%;
+
+}
+
+div
+{
+	padding: 3px;
+}
+
+
+
+#Logo
+{
+	float: left;
+	margin-left: 20%;
+}
+
+ul 
+{
+	list-style:none;
+}
+
+a
+{
+	font-family: droid_sansregular;
+	color: grey;
+}
+
+
+a:link
+{
+	text-decoration: none;
+}
+
+#HotelH3
+{
+	
+	border-bottom: #ff751a solid 4px;
+	
+	margin-left: 20%;
+}
+#RestaurantsH3
+{
+	
+	border-bottom: #ffd11a solid 4px;
+	
+	margin-left: 20%;
+}
+#ServicesH3
+{
+	
+	border-bottom: #33cc33 solid 4px;
+	
+	margin-left: 20%;
+}
+#ActivitesH3
+{
+	
+	border-bottom: #1aa3ff solid 4px;
+	
+	margin-left: 20%;
+}
+#PlusH3
+{
+	
+	border-bottom: #d24dff solid 4px;
+	
+	margin-left: 20%;
+}
+
+.Footer
+{
+	
+	text-align: left;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 1%;
+	display: flex
+
+}
+#footerimg
+{
+	border-bottom: #e6e6e6 solid 1px;
+	border-top: #e6e6e6 solid 1px;
+	background-image:url(./maquette_2/misc/grille.png);
+	margin-top: 0.5%;
+}
+
+#LogoFooter
+{
+	float: left;
+}
+#Contact
+{
+	
+	text-align: left;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+}
+#Billet
+{
+	text-align: left;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+#Commentaire
+{
+	text-align: left;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+}
+#Blabla
+{
+	text-align: left;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+#Foot
+{
+
+	
+    bottom: 0;
+    margin-left: 20%;
+    text-decoration: none;
+}
+.footerpng
+{
+
+    float: left;
+   	margin-left: 65%;
+
+}
+.Body
+{
+	
+	display: flex;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 0.5%;
+}
+
+#align
+{
+	
+	display: flex;
+	flex-direction: column;
+}
+
+
+.Backbody
+{
+	
+	font-size: 20px;
+	border-bottom: #e6e6e6 solid 1px;
+	border-top: #e6e6e6 solid 1px;
+	background-image:url(./maquette_2/misc/grille.png);
+}
+#Bandeau
+{
+	font-style: italic;
+	margin-top: 1%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 1%;
+}
+#Video
+{
+	margin-top: 1%;
+}
+.Backbody
+{
+	margin-top: 1%;
+	text-align:center;
+	
+}
+#bordergolf
+{
+	border: #e6e6e6 solid 1px;
+}
+#accrobranche
+{
+	 padding: 4px;
+	 border: #e6e6e6 solid 1px;
+}
+.gras
+{
+	font-weight:bold;
+	font-family: droid_sansregular;
+	font-size: 15px;
+}
+.date_pub
+{
+	font-size: 15px;
+	color: #999999;
+}
